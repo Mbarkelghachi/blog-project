@@ -10,15 +10,15 @@
     <body>    
 <main class="container">         
  <header>
+ <nav id="nav">
+        <ul>
+            <li><a href="/monblog/">Home</a></li>
+            <li><a href="/monblog/about/">About Us</a></li>
+            <li><a href="/monblog/category/blog/">Blog</a></li>
+            <li><a href="/monblog/contact/">Contact</a></li>
+        </ul>
+    </nav>
   
-    <?php 
-    wp_nav_menu(
-        array(
-            'theme_location' => 'top-menu',
-            'menu_class' => 'top-bar',
-        )
-    );
-    ?>
-
+   
 </header>
 </main>
